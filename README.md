@@ -56,6 +56,7 @@ People/Projects Tab
 ●	Format: For staff, skills are usually denoted as binary (1 or 0) indicating whether a staff member possesses that skill or not. For projects, this is linked to the number of hours needed (e.g., 0.5, 1, 3).
 *Note: Staff numbers between 0 and 1 would indicate that a person has a skill but work less efficiently (0.5 means it takes that person 2 hours to complete 1 hour of work with that skill) Numbers above 1 mean that the person is more efficient (2 mean they get 2 hours of work done per hour assigned).
 Project Management is the only skill header that must be present. All other skills can be added or deleted. The skills headers must match in the People & Projects tab.
+
 Parameters Tab
 ●	ScheduleChangeWeight
 ●	Description: Penalty value for trying to change the current schedule.
@@ -70,6 +71,7 @@ Parameters Tab
 ●	Description: Indicates the weight given to prioritizing external projects before internal projects.
 ●	Format: Any positive number
 *Note: For all parameters, higher values mean the program will give more weight to that consideration. Lower values mean less weight given. A value of zero means the program will ignore that consideration. 
+
 Current Schedule Tab
 ●	Description: Helps maintain continuity by considering the previous staff allocation to projects.
 ●	Usage: Paste the output from the previous run to prevent reassignment of staff to new projects, ensuring stability and continuity.
